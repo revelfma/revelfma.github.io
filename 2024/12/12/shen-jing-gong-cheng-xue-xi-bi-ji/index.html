@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="脑机实验, Reve&#39;s Blog">
+    <meta name="keywords" content="神经工程学习笔记, Reve&#39;s Blog">
     <meta name="description" content="别走~~~你看我用大脑控制你">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>脑机实验 | Reve&#39;s Blog</title>
+    <title>神经工程学习笔记 | Reve&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -320,12 +320,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">脑机实验</h1>
+                    <h1 class="description center-align post-title">神经工程学习笔记</h1>
                 </div>
             </div>
         </div>
@@ -449,8 +449,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/BCI-%E5%A4%B4%E8%84%91%E9%A3%8E%E6%9A%B4/" class="post-category">
-                                BCI 头脑风暴
+                            <a href="/categories/BCI%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                BCI学习
                             </a>
                         
                     </div>
@@ -462,7 +462,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-09-07
+                    2024-12-12
                 </div>
                 
 
@@ -483,18 +483,51 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="66a7e83acd4c82264c440d78bf3a64a0997cd1e3b755e4c50c98504e0a0a3ab7">cb0a42d0d1dfc9314ab94d7f2823c942db701a2f9de02ea6d3f35dbbfa42ae025e3e8b3f062a2a6478726c0286ec819d1e80d0c48a472806ecf25cad27359054c393d24c738e0fb42904381f8bf869420c91cc4b1bc1012bf2e825b7652289837e8faa8796c5545aaf41e49c86674f70e924d55731ef1a9b4d8cac1cb631dfb193d532fa48102b8aa6ec07843110cdf8ca7f30cd5f424f3d2f38f62cbfeba291f062f0397078afefe00ad6187c803373312fd231da01865f04bbba193366df8e1f1fa01dad418c734d436f715010c66b7b8e7497e8186c7cafe440d8dfb5f95d823d708ea24a09d5c445a97b2f34f9963d7b1479de524c25c6efcb6236314e791191e40917debf5219ab1a6939c41824b4b00ed22d6e04f429cd21364171aee0e62bcb973bb369266bd223d0f6131674308c1fcf9238e85ed04e739ac18685aca4fd004a14912ef3fa7320e2499f44f0aab45bb70c473ff812ea62d7952d42005c8b1962204e404d22077ccc6ff7d037afc7351e3e9f86383351a67dc9ab4b6b61204ac972d62ed650a2d8b6f2b676cc300a425ec98496b337456bbcc51cf25084c45e3f72221d6601245e654c3b5c44</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码，查看文章</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+                <h1 id="植入式神经接口概述"><a href="#植入式神经接口概述" class="headerlink" title="植入式神经接口概述"></a>植入式神经接口概述</h1><h2 id="什么是植入式神经接口？"><a href="#什么是植入式神经接口？" class="headerlink" title="什么是植入式神经接口？"></a>什么是植入式神经接口？</h2><ul>
+<li>直接与神经系统（中枢或外周）相连的设备</li>
+<li>实现神经与外界的双向交互<ul>
+<li>包括脑机接口（BCI）</li>
+<li>神经假体（neuroprosthetics）</li>
+<li>功能性电刺激（FES）</li>
+</ul>
+</li>
+</ul>
+<h2 id="植入式神经接口的特点与意义"><a href="#植入式神经接口的特点与意义" class="headerlink" title="植入式神经接口的特点与意义"></a>植入式神经接口的特点与意义</h2><ul>
+<li>特点<ul>
+<li>微创</li>
+<li>高时空分辨率</li>
+<li>复杂精细的功能修复</li>
+</ul>
+</li>
+<li>意义<ul>
+<li>修复受损神经通路</li>
+<li>控制神经障碍疾病</li>
+<li>重建运动和感觉通路</li>
+</ul>
+</li>
+</ul>
+<h2 id="发展历程"><a href="#发展历程" class="headerlink" title="发展历程"></a>发展历程</h2><ul>
+<li>2001年：侵入式脑机接口（i-BCI）</li>
+<li>2005年：结合触觉的灵巧神经假肢（HAPTIX）</li>
+<li>2013年：基于系统的神经技术新兴疗法（SUBNETS）</li>
+<li>2018年：下一代微侵入性神经接口（N3）</li>
+</ul>
+<h2 id="应用实例"><a href="#应用实例" class="headerlink" title="应用实例"></a>应用实例</h2><ul>
+<li>残疾病人通过植入式神经接口控制机械手臂喂自己吃巧克力</li>
+</ul>
+<h2 id="系统构成"><a href="#系统构成" class="headerlink" title="系统构成"></a>系统构成</h2><ul>
+<li>信号处理单元</li>
+<li>植入式神经电极</li>
+<li>通信单元</li>
+<li>供电单元</li>
+<li>中枢&#x2F;外周神经与外部设备</li>
+</ul>
+<h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><ul>
+<li>读取式Neural recording systems</li>
+<li>写入式Neural stimulation systems</li>
+</ul>
+<p><img src="/2024/12/12/shen-jing-gong-cheng-xue-xi-bi-ji/%E6%A4%8D%E5%85%A5%E5%BC%8F%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E8%84%91%E5%9B%BE.jpeg"></p>
+
                 
             </div>
             <hr/>
@@ -520,7 +553,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://revelfma.github.io/2024/09/07/jue-mi/">https://revelfma.github.io/2024/09/07/jue-mi/</a>
+                    <a href="https://revelfma.github.io/2024/12/12/shen-jing-gong-cheng-xue-xi-bi-ji/">https://revelfma.github.io/2024/12/12/shen-jing-gong-cheng-xue-xi-bi-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -725,72 +758,36 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2024/11/21/hello-world/">
+                <a href="/2024/12/12/shen-jing-gong-cheng-xue-xi-bi-ji/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="神经工程学习笔记">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">神经工程学习笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-11-21
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Reve
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2024/09/07/jue-mi/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="脑机实验">
-                        
-                        <span class="card-title">脑机实验</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Here's something encrypted, password is required to continue reading.
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-09-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-12-12
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/BCI-%E5%A4%B4%E8%84%91%E9%A3%8E%E6%9A%B4/" class="post-category">
-                                    BCI 头脑风暴
+                            <a href="/categories/BCI%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    BCI学习
                                 </a>
                             
                             
@@ -798,6 +795,47 @@
                     </div>
                 </div>
 
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2024/11/22/blog-theme-pic/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="blog-theme-pic">
+                        
+                        <span class="card-title">blog-theme-pic</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-11-22
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/blog%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8/" class="post-category">
+                                    blog主题使用
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
                 
             </div>
         </div>
