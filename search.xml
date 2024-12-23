@@ -4,6 +4,38 @@
   
     
     <entry>
+      <title>juyter</title>
+      <link href="/2024/12/23/juyter/"/>
+      <url>/2024/12/23/juyter/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Jupyter-notebook"><a href="#Jupyter-notebook" class="headerlink" title="Jupyter notebook"></a>Jupyter notebook</h1><h2 id="1-Jupyter-notebook介绍"><a href="#1-Jupyter-notebook介绍" class="headerlink" title="1. Jupyter notebook介绍"></a>1. Jupyter notebook介绍</h2><p>Jupyter Notebook 是一个基于 Web 的交互式计算环境，支持多种编程语言，包括 Python、R、Julia 等。它的主要功能是将代码、文本、数学方程式、可视化和其他相关元素组合在一起，创建一个动态文档，用于数据分析、机器学习、科学计算和数据可视化等方面。Jupyter Notebook 提供了一个交互式的界面，使用户能够以增量和可视化的方式构建和执行代码，同时支持 Markdown 格式的文本和 LaTeX 数学符号。</p><p>但是要使用jupyter notebook， 我们首先得了解jupyter中内核的概念。</p><h2 id="2-内核的概念"><a href="#2-内核的概念" class="headerlink" title="2. 内核的概念"></a>2. 内核的概念</h2><h3 id="2-1-内核的比喻"><a href="#2-1-内核的比喻" class="headerlink" title="2.1 内核的比喻"></a>2.1 内核的比喻</h3><p>想象一下，你有一个魔法笔记本（Jupyter Notebook），你可以在这个笔记本上写下各种咒语（代码）。但是，这个笔记本自己并不能理解这些咒语，它需要一个魔法师（内核）来解读并执行这些咒语。</p><ol><li><p><strong>选择魔法师（内核）</strong>：当你打开魔法笔记本时，你需要选择一个魔法师，这个魔法师懂得特定的魔法语言（编程语言）。比如，你可以选择一个懂得 Python 魔法的魔法师，或者一个懂得 R 魔法的魔法师。</p></li><li><p><strong>写下咒语（代码）</strong>：你在这个笔记本上写下咒语（编写代码）。这些咒语是按照你选择的魔法师所懂得的语言写的。</p></li><li><p><strong>执行咒语（运行代码）</strong>：当你告诉魔法师执行咒语时，他会在你写下的咒语上施展魔法（运行代码），并把结果告诉你。</p></li><li><p><strong>显示结果</strong>：魔法师执行完咒语后，会将结果展示在你的笔记本上，这样你就可以看到咒语的效果了。</p></li></ol><h3 id="2-2-内核的详细解释"><a href="#2-2-内核的详细解释" class="headerlink" title="2.2 内核的详细解释"></a>2.2 内核的详细解释</h3><p>在 Jupyter Notebook 中，内核的工作方式与上面的比喻类似：</p><ol><li><p><strong>内核的选择</strong>：当你创建一个新的 Jupyter Notebook 时，你需要选择一个内核。这个内核决定了你可以在 Notebook 中使用哪种编程语言。比如，如果你选择 Python 内核，你就可以在 Notebook 中写 Python 代码。</p></li><li><p><strong>代码的执行</strong>：你在 Notebook 中写下的代码（即“单元格”中的代码）需要由内核来执行。当你运行一个代码单元格时，这个代码会被发送到内核。</p></li><li><p><strong>内核的处理</strong>：内核接收到代码后，会在其环境中执行这些代码。内核负责解释和执行代码，就像魔法师解读和执行咒语一样。</p></li><li><p><strong>返回输出</strong>：执行完毕后，内核会将输出（比如打印的结果、错误信息、生成的图表等）返回给 Jupyter Notebook，并显示在代码单元格下面。</p></li><li><p><strong>多语言支持</strong>：Jupyter Notebook 支持多种内核，这意味着你可以使用不同的编程语言。如果你想切换到另一种语言，你只需要更改 Notebook 的内核即可。</p></li><li><p><strong>内核的独立性</strong>：每个内核都是独立的，它们各自有自己的环境和状态。这意味着在一个内核中定义的变量或函数不会影响另一个内核。</p></li></ol><p>通过这种方式，Jupyter Notebook 允许我们在一个统一的界面中使用多种编程语言，进行数据分析、科学计算、可视化等多种任务。</p><h2 id="3-如何安装jupyter-notebook"><a href="#3-如何安装jupyter-notebook" class="headerlink" title="3. 如何安装jupyter notebook"></a>3. 如何安装jupyter notebook</h2><h3 id="方式一、利用anaconda安装"><a href="#方式一、利用anaconda安装" class="headerlink" title="方式一、利用anaconda安装"></a>方式一、利用anaconda安装</h3><h3 id="方式二、利用pip命令安装Jupyter-Notebook"><a href="#方式二、利用pip命令安装Jupyter-Notebook" class="headerlink" title="方式二、利用pip命令安装Jupyter Notebook"></a>方式二、利用pip命令安装Jupyter Notebook</h3><h2 id="1-安装-Python"><a href="#1-安装-Python" class="headerlink" title="1. 安装 Python"></a>1. 安装 Python</h2><p>首先，需要确保你的计算机上安装了 Python。</p><ul><li>访问 <a href="https://www.python.org/">Python 官网</a> 下载并安装 Python。</li><li>安装过程中，请确保将 Python 添加到你的系统路径（Path）中，这样可以在命令行中直接调用 <code>python</code> 命令。</li></ul><h2 id="2-使用-pip-安装-Jupyter-Notebook"><a href="#2-使用-pip-安装-Jupyter-Notebook" class="headerlink" title="2. 使用 pip 安装 Jupyter Notebook"></a>2. 使用 pip 安装 Jupyter Notebook</h2><p>Python 有一个包管理工具叫做 pip，它可以用来安装和管理 Python 包。</p><ul><li><p>打开命令行工具（在 Windows 上是 CMD 或 PowerShell，在 macOS 或 Linux 上是 Terminal）。</p></li><li><p>输入以下命令来安装 Jupyter Notebook：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install notebook</span><br></pre></td></tr></table></figure><p>或者，如果你使用的是 Python 3（推荐），你可能需要使用 <code>pip3</code>：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install notebook</span><br></pre></td></tr></table></figure></li><li><p>启动 Jupyter Notebook</p></li></ul><p>安装完成后，你可以通过以下命令来启动 Jupyter Notebook：</p><ul><li><p>在命令行中输入：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter notebook</span><br></pre></td></tr></table></figure><p>这将在你的默认网页浏览器中打开 Jupyter Notebook 的界面。</p></li></ul><h2 id="4-访问-Jupyter-Notebook"><a href="#4-访问-Jupyter-Notebook" class="headerlink" title="4. 访问 Jupyter Notebook"></a>4. 访问 Jupyter Notebook</h2><ul><li><p>启动后，Jupyter Notebook 通常会在浏览器中自动打开。如果没有自动打开，命令行会显示一个 URL，你可以复制并粘贴到浏览器的地址栏中访问。</p></li><li><p>你将看到一个文件浏览器界面，在这里你可以创建新的 Notebook 或者打开已有的 Notebook。</p></li></ul><h2 id="5-创建一个新的-Notebook"><a href="#5-创建一个新的-Notebook" class="headerlink" title="5. 创建一个新的 Notebook"></a>5. 创建一个新的 Notebook</h2><ul><li>点击右上角的 “New” 按钮，然后选择一个内核（例如 Python 3），这将创建一个新的 Notebook。</li></ul><h2 id="6-开始使用-Jupyter-Notebook"><a href="#6-开始使用-Jupyter-Notebook" class="headerlink" title="6. 开始使用 Jupyter Notebook"></a>6. 开始使用 Jupyter Notebook</h2><ul><li>现在你可以开始在 Notebook 中编写和运行代码了。</li></ul><h2 id="7-保存和关闭-Notebook"><a href="#7-保存和关闭-Notebook" class="headerlink" title="7. 保存和关闭 Notebook"></a>7. 保存和关闭 Notebook</h2><ul><li><p>使用完 Notebook 后，记得保存你的工作。可以通过点击工具栏上的 “Save” 按钮来保存。</p></li><li><p>当你完成工作后，点击 “File” -&gt; “Close and Halt” 来关闭并停止 Notebook 服务器。</p></li></ul><p>通过以上步骤，你就可以在你的计算机上安装并使用 Jupyter Notebook 了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python 学习 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/16/cursor1/"/>
+      <url>/2024/12/16/cursor1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="🖥️-Cursor编辑器使用指南"><a href="#🖥️-Cursor编辑器使用指南" class="headerlink" title="🖥️ Cursor编辑器使用指南"></a><span style="color: #2E86C1">🖥️ Cursor编辑器使用指南</span></h1><h2 id="1-基础功能介绍"><a href="#1-基础功能介绍" class="headerlink" title="1. 基础功能介绍"></a><span style="color: #3498DB">1. 基础功能介绍</span></h2><ul><li>**<span style="color: #2471A3">Cursor是什么</span>**：Cursor是一款由OpenAI开发的智能代码编辑器，它利用先进的AI技术来辅助编程工作。</li><li>**<span style="color: #2471A3">主要特点和优势</span>**：<ul><li><span style="color: #5DADE2">🤖 智能代码补全</span></li><li><span style="color: #5DADE2">✨ 自动代码生成</span></li><li><span style="color: #5DADE2">🔄 代码重构建议</span></li><li><span style="color: #5DADE2">🛠️ 错误修复</span></li></ul></li><li>**<span style="color: #2471A3">系统要求与安装</span>**：Cursor支持macOS、Windows和Linux系统，用户可以通过官方网站下载安装。</li></ul><h2 id="2-使用不同的风格进行翻译、校对"><a href="#2-使用不同的风格进行翻译、校对" class="headerlink" title="2. 使用不同的风格进行翻译、校对"></a><span style="color: #3498DB">2. 使用不同的风格进行翻译、校对</span></h2><h3 id="🚀-Command-K快捷键调用AI助手"><a href="#🚀-Command-K快捷键调用AI助手" class="headerlink" title="🚀 Command+K快捷键调用AI助手"></a><span style="color: #2E86C1">🚀 Command+K快捷键调用AI助手</span></h3><blockquote><p>**<span style="color: #5DADE2">翻译功能</span>**：例如：”帮我用科技文章记者的口吻翻译这篇文章”</p></blockquote><blockquote><p>**<span style="color: #5DADE2">校对功能</span>**：例如：”请作为资深编辑对文章进行校对，修改错别字，改正不通顺的语句”</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/2024/12/16/cursor/"/>
       <url>/2024/12/16/cursor/</url>
