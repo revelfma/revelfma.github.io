@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Reve&#39;s Blog">
+    <meta name="keywords" content="zotero安装与使用, Reve&#39;s Blog">
     <meta name="description" content="别走~~~你看我用大脑控制你">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Reve&#39;s Blog</title>
+    <title>zotero安装与使用 | Reve&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -325,7 +325,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">zotero安装与使用</h1>
                 </div>
             </div>
         </div>
@@ -446,6 +446,15 @@
                 </div>
                 <div class="col s5 right-align">
                     
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E7%A7%91%E7%A0%94%E5%B7%A5%E5%85%B7/" class="post-category">
+                                科研工具
+                            </a>
+                        
+                    </div>
+                    
                 </div>
             </div>
 
@@ -453,7 +462,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2025-06-03
+                    2025-07-02
                 </div>
                 
 
@@ -474,7 +483,68 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">    A[情绪刺激实验] --&gt; B[多模态生理信号采集]</span><br><span class="line">    B --&gt; C1[ECG处理]</span><br><span class="line">    B --&gt; C2[EDA处理]</span><br><span class="line">    B --&gt; C3[RSP处理]</span><br><span class="line">    </span><br><span class="line">    C1 --&gt; D1[心率/HRV特征]</span><br><span class="line">    C2 --&gt; D2[SCR/SCL特征]</span><br><span class="line">    C3 --&gt; D3[呼吸特征]</span><br><span class="line">    </span><br><span class="line">    D1 --&gt; E[情绪状态特征融合]</span><br><span class="line">    D2 --&gt; E</span><br><span class="line">    D3 --&gt; E</span><br><span class="line">    </span><br><span class="line">    E --&gt; F[情绪分类模型]</span><br><span class="line">    F --&gt; G1[安静状态]</span><br><span class="line">    F --&gt; G2[压力状态]</span><br><span class="line">    F --&gt; G3[兴奋状态]</span><br><span class="line">    F --&gt; G4[放松状态]</span><br></pre></td></tr></table></figure>
+                <h2 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h2><p>官网下载zotero7：<a target="_blank" rel="noopener" href="https://www.zotero.org/">https://www.zotero.org/</a></p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/zotero-install.jpg" alt="Zotero安装"></p>
+<h2 id="二、注册账号与同步"><a href="#二、注册账号与同步" class="headerlink" title="二、注册账号与同步"></a>二、注册账号与同步</h2><h3 id="注册账号："><a href="#注册账号：" class="headerlink" title="注册账号："></a>注册账号：</h3><p>下载完zotero之后，我们还需要注册一个zotero账号。打开官网：<a target="_blank" rel="noopener" href="https://www.zotero.org/%EF%BC%8C%E8%BF%9B%E8%A1%8C%E6%B3%A8%E5%86%8C%E3%80%82">https://www.zotero.org/，进行注册。</a></p>
+<p>在设置里登录账号，点击设置-同步-创建账户-启用同步。<br>同步的目的是将所有数据同步到云端，可以在不同设备上自动同步查看。</p>
+<h2 id="利用WebDAV实现双PC端-iPad端-iPhone端文献同步："><a href="#利用WebDAV实现双PC端-iPad端-iPhone端文献同步：" class="headerlink" title="利用WebDAV实现双PC端+iPad端+iPhone端文献同步："></a>利用WebDAV实现双PC端+iPad端+iPhone端文献同步：</h2><ul>
+<li><p><strong>写在开头</strong><br>  只需要有一个坚果云的账号以及zotero软件，就可轻松实现文件管理和多设备同步，文献的笔记内容也可瞬间同步，操作十分丝滑。</p>
+<p>  这里补充说明一下什么是WebDAV，该功能主要是为了方便我们用来云同步文献。因为zotero免费的云空间只有300M，用来进行文件管理显然是不够的。这个时候我们一般利用坚果云进行文献的云储存，因为大多数网盘不支持WebDAV功能，而坚果云是有这个功能的。</p>
+<p>  那么还需要安装zotfile插件吗？建议安装。这里虽然我们不需要用它来移动文献位置了，但依然可以利用此插件进行文献的有效命名。</p>
+</li>
+</ul>
+<h3 id="1-两台PC端的同步"><a href="#1-两台PC端的同步" class="headerlink" title="1. 两台PC端的同步"></a>1. 两台PC端的同步</h3><p>首先我们需要注册一个坚果云账号，官方网址：<a target="_blank" rel="noopener" href="https://www.jianguoyun.com/">https://www.jianguoyun.com/</a></p>
+<p>注册好后点击网页端右上角，点击账户信息。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/1.png" alt="坚果云账户信息"></p>
+<p>选择安全选项，点击添加应用，输入名称，我们在这里可以把名称命名为zotero（输别的也没有关系），点击生成密码，即可获得坚果云的应用密码。注意这里的服务器地址、账户和zotero对应的应用密码我们一会儿要用到。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/2.png" alt="生成应用密码"></p>
+<p>返回到坚果云首页点击同步文件夹-&gt;个人同步文件夹，新建一个名为zotero的云同步文件夹，注意这里的命名一定要为zotero。该文件夹无需同步到本地，保存在云端即可。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/3.png" alt="新建zotero文件夹"></p>
+<p>打开zotero，点击编辑-&gt;首选项-&gt;同步，将文件同步下的”我的文献”附件同步方式改为WebDAV。</p>
+<p>下面的网址，用户名和密码填写我们之前在坚果云中获取的服务器地址、账户和zotero对应的应用密码。</p>
+<p>这里要注意网址只填写https:&#x2F;&#x2F;后面的内容就可以了，我们还可以看到网址最后默认的是&#x2F;zotero&#x2F;，这也是为什么我们要在坚果云中建立名为zotero的同步文件夹的原因。此外还要注意用户名的地方填写的是邮箱账号。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/4.png" alt="配置WebDAV"></p>
+<p>点击验证服务器，不出意外的话会显示”文件同步设定成功”。</p>
+<p>补充一下，文件同步上方的数据同步，是同步文献条目信息，即从另一台设备登陆你的zotero账号后，界面应该是和此设备相似的，但如果不设置下方的文献同步，点击文献的pdf文件会显示找不到附件。</p>
+<p>另外还有一点要注意，如果你安装了Zotfile插件的话，点击工具-&gt;ZotFile Preferences，要保证Location of Files下勾选的是Attach stored copy of file(s)。这样Zotfile插件才不会移动您的pdf文件的位置。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/5.png" alt="Zotfile设置"></p>
+<p>打开另一台PC端设备的zotero，点击编辑-&gt;首选项-&gt;同步，在数据同步和文件同步位置输入完全相同内容，点击验证服务器，成功后即可顺利同步文件！</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/6.png" alt="第二台电脑同步设置"></p>
+<h3 id="2-iPad端文献同步"><a href="#2-iPad端文献同步" class="headerlink" title="2. iPad端文献同步"></a>2. iPad端文献同步</h3><p>首先需要在iPad上下载zotero。下载完成后点击zotero左上角齿轮，打开设置。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/7.png" alt="iPad设置"></p>
+<p>点击账户Account</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/8.png" alt="iPad账户设置"></p>
+<p>将Sync attachment files in My Library using改为WebDAV</p>
+<p>然后下面依次填写坚果云中服务器地址、账户和zotero对应的应用密码。然后点击Verify Server。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/9.png" alt="iPad WebDAV配置"></p>
+<p>不出意外的话会验证成功，但是小编在这里出意外了，总是报错，sad。</p>
+<p><strong>报错解决方法：</strong></p>
+<p>打开坚果云网页版，在zotero文件夹下新建空白的lastsync.txt文件，务必注意的是，必须使用坚果云自带的新建文件工具来新建lastsync.txt文件，不能通过手动上传的方式。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/10.png" alt="创建lastsync.txt文件"></p>
+<p>然后重新在iPad上的zotero验证WebDAV。验证成功！</p>
+<p>因为之前zotero没有出ipad端，所以很多教程在iPad端用了papership，但是papership是需要68元软件内购的。个人觉得zotero的iPad端内置的阅读器完全够用，而且亲测同步速度非常快，给zotero点赞。</p>
+<h3 id="3-iPhone端文献同步"><a href="#3-iPhone端文献同步" class="headerlink" title="3. iPhone端文献同步"></a>3. iPhone端文献同步</h3><p>iPhone端也有zotero了哦，但是安卓似乎还没有。</p>
+<p>同样在iphone端下载zotero，然后配置WebDAV，操作步骤和iPad端完全一样！同步好后，就可以随时随地在手机上也能看文献了。</p>
+<p>iPhone端的zotero也是有内置阅读器的，可以在上面勾画和标记，并且PC端iPad端和iPhone端能够实现快速同步，幸福感超强。</p>
+<h3 id="4-文献同步测试"><a href="#4-文献同步测试" class="headerlink" title="4. 文献同步测试"></a>4. 文献同步测试</h3><p>按照以上步骤操作完后，在任意一个设备上使用zotero内置的pdf阅读器进行勾画和标记，其他设备上的zotero都能够迅速同步笔记内容。这里我们简单测试了一下，同步速度很快，亲测好用！</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/11.png" alt="同步测试"></p>
+<h3 id="5-导出zotero中全部文献pdf文件"><a href="#5-导出zotero中全部文献pdf文件" class="headerlink" title="5. 导出zotero中全部文献pdf文件"></a>5. 导出zotero中全部文献pdf文件</h3><p>开启同步后，zotero文件夹内的文件全部为.prop和.zip文件，解压缩.zip文件，里面存储的是文献的pdf。而利用zotfile插件移动文件位置进行多设备同步的方式，同步文件夹中呈现的是规则的命名和pdf文件。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/12.png" alt="同步文件夹内容1"></p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/13.png" alt="同步文件夹内容2"></p>
+<p>虽然在平时的使用中没有太大影响，当如果你采用的是本文的多设备同步方式，但是又想导出所有的文献的pdf文件，这里也有一个解决方案。</p>
+<p>首先打开zotero，点击工具-&gt;zotfile preferences，勾选Custom Location，而不是Attach stored copy of files, 表示你不是将文件存在zotero的内置数据库中而是放在你自定义的文件夹中。</p>
+<p>将Use subfolder defined by改为&#x2F;%c，这样就可以使文献移动后仍然可以按照zotero中显示的子文件夹进行分类。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/14.png" alt="自定义存储位置"></p>
+<p>然后再点击编辑-&gt;首选项，将文件同步下面的方框都取消勾选。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/15.png" alt="取消同步选项"></p>
+<p>选中你想要导出pdf的文件，右击选中Manage Attachments-&gt;Rename and Move</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/16.png" alt="重命名并移动"></p>
+<p>操作完成后文献pdf下面会出现一个软连接的符号，表示附件位置已被移动，你就可以在你指定的文件夹目录下找到这些pdf文件了。</p>
+<p>操作完成后再点击工具-&gt;管理附件-&gt;转换已链接文件为已存储文件。可以ctrl+A选中所有文献进行批量操作。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/17.png" alt="转换文件"></p>
+<p>切记在弹出的文本框中不要勾选存储后删除原始文件，因为你就是需要这些文件。</p>
+<p><img src="/2025/07/02/zotero-an-zhuang-yu-shi-yong/18.png" alt="不要删除原始文件"></p>
+<p>然后再按本文已经讲过的步骤复原回去，继续用WebDAV的方式进行文献的多设备同步。</p>
 
                 
             </div>
@@ -501,7 +571,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://revelfma.github.io/2025/06/03/neurokit/images/neurokit-emotion-recognition/">https://revelfma.github.io/2025/06/03/neurokit/images/neurokit-emotion-recognition/</a>
+                    <a href="https://revelfma.github.io/2025/07/02/zotero-an-zhuang-yu-shi-yong/">https://revelfma.github.io/2025/07/02/zotero-an-zhuang-yu-shi-yong/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -706,9 +776,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2025/07/02/zotero-an-zhuang-yu-shi-yong/">
                     <div class="card-image">
@@ -726,9 +797,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-07-02
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-07-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -741,6 +812,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -751,7 +823,7 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2025/06/03/neurokit/images/neurokit-ml-pipeline/">
+                <a href="/2025/06/03/neurokit/images/neurokit-emotion-recognition/">
                     <div class="card-image">
                         
                         
